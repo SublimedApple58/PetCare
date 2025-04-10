@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative bg-[#4A7C59] paw-bg">
+    <section id="home" className="relative bg-[#4A7C59] paw-bg overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 lg:py-32">
         <motion.div 
           className="max-w-3xl mx-auto text-center"
@@ -37,8 +37,8 @@ const HeroSection = () => {
           </div>
         </motion.div>
       </div>
-      <div className="absolute bottom-0 w-full">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <div className="absolute bottom-0 left-0 right-0 w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" style={{ display: 'block' }}>
           <path fill="#ffffff" fillOpacity="1" d="M0,96L48,122.7C96,149,192,203,288,218.7C384,235,480,213,576,192C672,171,768,149,864,154.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
         </svg>
       </div>
