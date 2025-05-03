@@ -58,10 +58,10 @@ const TestimonialSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Happy Pet Parents</h2>
-          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">What They Say</h3>
+          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Padroni felici</h2>
+          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Cosa dicono di noi</h3>
           <p className="mt-4 text-lg">
-            Don't just take our word for it - here's what other dog owners have to say.
+          Non fidarti solo della nostra parola: ecco cosa dicono altri proprietari di cani.
           </p>
         </motion.div>
         

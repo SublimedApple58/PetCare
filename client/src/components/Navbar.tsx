@@ -9,7 +9,6 @@ interface NavbarProps {
 const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
   const [scrolled, setScrolled] = useState(false);
 
-  // Track scrolling for navbar styling
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 10;
@@ -37,42 +36,42 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
               <i className="fas fa-paw text-[#4A7C59] text-2xl mr-2"></i>
-              <span className="font-heading font-bold text-xl text-[#4A7C59]">Sirya's Dog Daycare</span>
+              <span className="font-heading font-bold text-xl text-[#4A7C59]">The dog side</span>
             </div>
           </div>
-          
-          {/* Mobile menu button */}
+
+          {/* Bottone menu mobile */}
           <div className="flex items-center sm:hidden">
             <button 
               onClick={toggleMobileMenu}
               type="button" 
               className="text-gray-500 hover:text-[#4A7C59] focus:outline-none"
-              aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+              aria-label={mobileMenuOpen ? 'Chiudi menu' : 'Apri menu'}
             >
               <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
             </button>
           </div>
-          
-          {/* Desktop menu */}
+
+          {/* Menu desktop */}
           <div className="hidden sm:flex sm:items-center">
             <div className="ml-10 flex items-baseline space-x-4">
               <a href="#home" className="text-[#4A7C59] px-3 py-2 text-sm font-medium hover:text-[#8B5A2B] transition-colors">Home</a>
-              <a href="#about" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">About</a>
-              <a href="#services" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Services</a>
-              <a href="#gallery" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Gallery</a>
-              <a href="#testimonials" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Testimonials</a>
+              <a href="#about" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Chi siamo</a>
+              <a href="#services" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Servizi</a>
+              <a href="#gallery" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Galleria</a>
+              <a href="#testimonials" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Testimonianze</a>
               <a 
                 href="#contact" 
                 className="bg-[#4A7C59] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#8B5A2B] transition-colors duration-300"
               >
-                Contact Us
+                Contattaci
               </a>
             </div>
           </div>
         </div>
       </div>
-      
-      {/* Mobile menu */}
+
+      {/* Menu mobile */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div 
@@ -95,35 +94,35 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
                 className="text-[#333333] block px-3 py-2 text-base font-medium hover:text-[#4A7C59]"
                 onClick={closeMenu}
               >
-                About
+                Chi siamo
               </a>
               <a 
                 href="#services" 
                 className="text-[#333333] block px-3 py-2 text-base font-medium hover:text-[#4A7C59]"
                 onClick={closeMenu}
               >
-                Services
+                Servizi
               </a>
               <a 
                 href="#gallery" 
                 className="text-[#333333] block px-3 py-2 text-base font-medium hover:text-[#4A7C59]"
                 onClick={closeMenu}
               >
-                Gallery
+                Galleria
               </a>
               <a 
                 href="#testimonials" 
                 className="text-[#333333] block px-3 py-2 text-base font-medium hover:text-[#4A7C59]"
                 onClick={closeMenu}
               >
-                Testimonials
+                Testimonianze
               </a>
               <a 
                 href="#contact" 
                 className="bg-[#4A7C59] text-white block px-3 py-2 text-base font-medium rounded-md"
                 onClick={closeMenu}
               >
-                Contact Us
+                Contattaci
               </a>
             </div>
           </motion.div>

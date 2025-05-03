@@ -11,11 +11,12 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6">
-            A Safe Haven For Your Furry Friends
+            Un rifugio sicuro per i tuoi amici a quattro zampe
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8">
-            We provide loving daycare for your dogs while you're away. 
-            <span className="font-semibold"> Not an adoption service</span> - just a temporary home away from home.
+            Forniamo asilo amorevole ai tuoi animaletti mentre sei via o mentre non puoi prendertene cura come vorresti.
+            <br />
+            <span className="font-semibold"> Non è un servizio di adozione</span> - solo una sistemazione temporanea.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 z-20 relative">
             <motion.a 
@@ -24,7 +25,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Our Services
+              I nostri servizi
             </motion.a>
             <motion.a 
               href="#contact" 
@@ -32,7 +33,7 @@ const HeroSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Book a Stay
+              Prenota
             </motion.a>
           </div>
         </motion.div>

@@ -14,9 +14,9 @@ const ContactSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">Get in Touch</h2>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-6">Contattaci</h2>
               <p className="text-white/90 mb-8 text-lg">
-                Have questions or ready to book a stay for your furry friend? Reach out to us. We'd love to hear from you and discuss how we can provide the best care for your dog.
+                Hai domande o vuoi prenotare un soggiorno per il tuo amico a quattro zampe? Scrivici! Ci farà piacere sentirti e parlare di come possiamo prenderci cura al meglio del tuo cane.
               </p>
               
               <div className="space-y-6">
@@ -27,7 +27,7 @@ const ContactSection = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="font-semibold text-white">Location</h5>
+                    <h5 className="font-semibold text-white">Indirizzo</h5>
                     <p className="text-white/80">123 Bark Avenue, Dogtown, CA 90210</p>
                   </div>
                 </div>
@@ -39,7 +39,7 @@ const ContactSection = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="font-semibold text-white">Phone</h5>
+                    <h5 className="font-semibold text-white">Telefono</h5>
                     <p className="text-white/80">(555) 123-BARK</p>
                   </div>
                 </div>
@@ -63,16 +63,16 @@ const ContactSection = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h5 className="font-semibold text-white">Hours</h5>
-                    <p className="text-white/80">Monday - Friday: 7am - 7pm</p>
-                    <p className="text-white/80">Saturday: 8am - 5pm</p>
-                    <p className="text-white/80">Sunday: By appointment only</p>
+                    <h5 className="font-semibold text-white">Orari</h5>
+                    <p className="text-white/80">Lunedì - Venerdì: 7:00 - 19:00</p>
+                    <p className="text-white/80">Sabato: 8:00 - 17:00</p>
+                    <p className="text-white/80">Domenica: Solo su appuntamento</p>
                   </div>
                 </div>
               </div>
               
               <div className="mt-8">
-                <h5 className="font-semibold text-white mb-3">Follow Us</h5>
+                <h5 className="font-semibold text-white mb-3">Seguici</h5>
                 <div className="flex space-x-4">
                   <motion.a 
                     href="#" 
@@ -110,7 +110,7 @@ const ContactSection = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="bg-white rounded-xl shadow-xl p-8">
-                <h3 className="text-2xl font-heading font-bold mb-6">Book a Stay or Request Information</h3>
+                <h3 className="text-2xl font-heading font-bold mb-6">Prenota un soggiorno o richiedi informazioni</h3>
                 <ContactForm />
               </div>
             </motion.div>

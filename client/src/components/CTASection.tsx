@@ -11,9 +11,9 @@ const CTASection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#8B5A2B] mb-6">Ready to Give Your Dog the Best Care?</h2>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#8B5A2B] mb-6">Pronto a offrire al tuo animale le migliori cure?</h2>
           <p className="text-lg text-[#8B5A2B]/80 mb-8 max-w-2xl mx-auto">
-            Book your dog's stay today and give them a vacation while you're away. Spaces fill up quickly, so don't wait!
+            Prenota oggi il soggiorno del tuo cane e regalagli una vacanza mentre sei via. I posti si riempiono in fretta, non aspettare!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <motion.a 
@@ -22,15 +22,7 @@ const CTASection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Book Now
-            </motion.a>
-            <motion.a 
-              href="tel:5551232275" 
-              className="bg-white text-[#8B5A2B] font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <i className="fas fa-phone mr-2"></i> Call Us
+              Prenota ora
             </motion.a>
           </div>
         </motion.div>

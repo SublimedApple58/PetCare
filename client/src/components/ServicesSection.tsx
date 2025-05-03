@@ -31,11 +31,10 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">What We Offer</h2>
-          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Our Daycare Services</h3>
+          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Cosa offriamo</h2>
+          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">I nostri servizi di asilo</h3>
           <p className="mt-4 text-lg">
-            We provide comprehensive care services for your dogs while you're away.
-            All services include plenty of love and attention!
+            Offriamo servizi di cura completi per i vostri animali mentre siete via. Tutti i servizi includono tanto amore e attenzione!
           </p>
         </motion.div>
         
@@ -67,7 +66,7 @@ const ServicesSection = () => {
                   </li>
                 ))}
               </ul>
-              <p className="font-semibold text-[#4A7C59]">{service.price}</p>
+              {/* <p className="font-semibold text-[#4A7C59]">{service.price}</p> */}
             </motion.div>
           ))}
         </motion.div>
@@ -79,7 +78,7 @@ const ServicesSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span>Book a Service</span>
+            <span>Prenota un servizio</span>
             <i className="fas fa-paw ml-2"></i>
           </motion.a>
         </div>

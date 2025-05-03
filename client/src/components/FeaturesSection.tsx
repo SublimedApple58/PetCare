@@ -31,10 +31,10 @@ const FeaturesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Why Choose Us</h2>
-          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">What Makes Us Different</h3>
+          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Perché scegliere noi</h2>
+          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Cosa ci rende diversi</h3>
           <p className="mt-4 text-lg">
-            We're committed to providing the best possible care for your dog while you're away.
+          Ci impegniamo a fornire la migliore assistenza possibile al tuo cane mentre sei via.
           </p>
         </motion.div>
         

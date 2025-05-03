@@ -6,10 +6,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <i className="fas fa-paw text-[#F3C677] text-2xl mr-2"></i>
-              <span className="font-heading font-bold text-xl">Sirya's Dog Daycare</span>
+              <span className="font-heading font-bold text-xl">The dog side</span>
             </div>
             <p className="mb-4 text-white/80">
-              Providing loving, temporary care for your dogs in a home environment.
+              Offriamo cure temporanee e amorevoli per il tuo cane in un ambiente familiare.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/80 hover:text-[#F3C677] transition-colors">
@@ -25,31 +25,31 @@ const Footer = () => {
           </div>
           
           <div>
-            <h5 className="font-heading font-bold text-lg mb-4">Quick Links</h5>
+            <h5 className="font-heading font-bold text-lg mb-4">Link Rapidi</h5>
             <ul className="space-y-2">
               <li><a href="#home" className="text-white/80 hover:text-[#F3C677] transition-colors">Home</a></li>
-              <li><a href="#about" className="text-white/80 hover:text-[#F3C677] transition-colors">About Us</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Services</a></li>
-              <li><a href="#gallery" className="text-white/80 hover:text-[#F3C677] transition-colors">Gallery</a></li>
-              <li><a href="#testimonials" className="text-white/80 hover:text-[#F3C677] transition-colors">Testimonials</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-[#F3C677] transition-colors">Contact</a></li>
+              <li><a href="#about" className="text-white/80 hover:text-[#F3C677] transition-colors">Chi siamo</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Servizi</a></li>
+              <li><a href="#gallery" className="text-white/80 hover:text-[#F3C677] transition-colors">Galleria</a></li>
+              <li><a href="#testimonials" className="text-white/80 hover:text-[#F3C677] transition-colors">Testimonianze</a></li>
+              <li><a href="#contact" className="text-white/80 hover:text-[#F3C677] transition-colors">Contatti</a></li>
             </ul>
           </div>
           
           <div>
-            <h5 className="font-heading font-bold text-lg mb-4">Services</h5>
+            <h5 className="font-heading font-bold text-lg mb-4">Servizi</h5>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Day Care</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Overnight Stays</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Walking Service</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Basic Training</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Grooming</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Senior Dog Care</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Asilo diurno</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Pernottamenti</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Servizio passeggiate</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Addestramento base</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Toelettatura</a></li>
+              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Cura per cani anziani</a></li>
             </ul>
           </div>
           
           <div>
-            <h5 className="font-heading font-bold text-lg mb-4">Contact Info</h5>
+            <h5 className="font-heading font-bold text-lg mb-4">Contatti</h5>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-2"></i>
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <i className="fas fa-clock mt-1 mr-2"></i>
-                <span>Mon-Fri: 7am-7pm, Sat: 8am-5pm</span>
+                <span>Lun-Ven: 7:00 - 19:00, Sab: 8:00 - 17:00</span>
               </li>
             </ul>
           </div>
@@ -73,11 +73,11 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-white/20 text-center">
           <p className="text-white/60">
-            &copy; {new Date().getFullYear()} Sirya's Dog Daycare. All rights reserved.
+            &copy; {new Date().getFullYear()} The dog side. Tutti i diritti riservati.
           </p>
           <p className="text-white/60 mt-2 text-sm">
             <a href="#" className="hover:text-[#F3C677] transition-colors">Privacy Policy</a> | 
-            <a href="#" className="hover:text-[#F3C677] transition-colors"> Terms of Service</a>
+            <a href="#" className="hover:text-[#F3C677] transition-colors"> Termini di servizio</a>
           </p>
         </div>
       </div>

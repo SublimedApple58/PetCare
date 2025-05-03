@@ -8,13 +8,13 @@ import { SERVICE_OPTIONS } from "@/lib/constants";
 import { toast } from "@/hooks/use-toast";
 
 const formSchema = z.object({
-  name: z.string().min(2, "Name must be at least 2 characters"),
-  email: z.string().email("Please enter a valid email address"),
+  name: z.string().min(2, "Il nome deve contenere almeno 2 caratteri"),
+  email: z.string().email("Inserisci un indirizzo email valido"),
   phone: z.string().optional(),
-  service: z.string().min(1, "Please select a service"),
-  dogInfo: z.string().min(10, "Please provide more details about your dog"),
+  service: z.string().min(1, "Seleziona un servizio"),
+  dogInfo: z.string().min(10, "Fornisci più dettagli sul tuo cane"),
   message: z.string().optional(),
-  consent: z.boolean().refine(val => val === true, "You must consent to store your information")
+  consent: z.boolean().refine(val => val === true, "Devi acconsentire alla memorizzazione delle informazioni")
 });
 
 const ContactForm = () => {
@@ -37,18 +37,17 @@ const ContactForm = () => {
   const onSubmit = (data: ContactFormData) => {
     setIsSubmitting(true);
 
-    // Simulate API call with timeout
+    // Simulazione chiamata API
     setTimeout(() => {
-      console.log("Form submitted:", data);
+      console.log("Modulo inviato:", data);
       setIsSubmitting(false);
       setIsSuccess(true);
       toast({
-        title: "Request Submitted",
-        description: "Thank you for your message! We'll get back to you soon about caring for your furry friend.",
+        title: "Richiesta inviata",
+        description: "Grazie per il tuo messaggio! Ti ricontatteremo presto per prenderci cura del tuo amico peloso.",
       });
       reset();
 
-      // Reset success message after 5 seconds
       setTimeout(() => {
         setIsSuccess(false);
       }, 5000);
@@ -59,7 +58,7 @@ const ContactForm = () => {
     <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Your Name *</label>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Il tuo nome *</label>
           <input 
             type="text" 
             id="name" 
@@ -70,7 +69,7 @@ const ContactForm = () => {
         </div>
         
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Your Email *</label>
+          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">La tua email *</label>
           <input 
             type="email" 
             id="email" 
@@ -83,7 +82,7 @@ const ContactForm = () => {
       
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+          <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Numero di telefono</label>
           <input 
             type="tel" 
             id="phone" 
@@ -93,7 +92,7 @@ const ContactForm = () => {
         </div>
         
         <div>
-          <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">Service Interested In *</label>
+          <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">Servizio richiesto *</label>
           <select 
             id="service" 
             className={`w-full px-4 py-2 border ${errors.service ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-[#4A7C59] focus:border-[#4A7C59]`} 
@@ -108,24 +107,24 @@ const ContactForm = () => {
       </div>
       
       <div>
-        <label htmlFor="dogInfo" className="block text-sm font-medium text-gray-700 mb-1">About Your Dog *</label>
+        <label htmlFor="dogInfo" className="block text-sm font-medium text-gray-700 mb-1">Informazioni sul tuo cane *</label>
         <textarea 
           id="dogInfo" 
           rows={3} 
           className={`w-full px-4 py-2 border ${errors.dogInfo ? 'border-red-500' : 'border-gray-300'} rounded-md focus:ring-[#4A7C59] focus:border-[#4A7C59]`} 
-          placeholder="Please share your dog's name, breed, age, and any special needs or requirements." 
+          placeholder="Nome, razza, età, esigenze particolari o note importanti." 
           {...register("dogInfo")}
         ></textarea>
         {errors.dogInfo && <p className="mt-1 text-sm text-red-500">{errors.dogInfo.message}</p>}
       </div>
       
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+        <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Messaggio</label>
         <textarea 
           id="message" 
           rows={3} 
           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-[#4A7C59] focus:border-[#4A7C59]" 
-          placeholder="Any additional information or questions?"
+          placeholder="Ulteriori informazioni o domande?"
           {...register("message")}
         ></textarea>
       </div>
@@ -138,7 +137,7 @@ const ContactForm = () => {
           {...register("consent")}
         />
         <label htmlFor="consent" className="ml-2 block text-sm text-gray-700">
-          I consent to having my information stored for the purpose of being contacted about pet care services.
+          Acconsento alla memorizzazione delle mie informazioni per essere ricontattato riguardo i servizi di cura per animali.
         </label>
       </div>
       {errors.consent && <p className="mt-1 text-sm text-red-500">{errors.consent.message}</p>}
@@ -151,7 +150,7 @@ const ContactForm = () => {
           whileTap={{ scale: 0.98 }}
           disabled={isSubmitting}
         >
-          {isSubmitting ? 'Submitting...' : 'Submit Request'}
+          {isSubmitting ? 'Invio in corso...' : 'Invia richiesta'}
         </motion.button>
       </div>
       
@@ -163,7 +162,7 @@ const ContactForm = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for your message! We'll get back to you soon about caring for your furry friend.
+            Grazie per il tuo messaggio! Ti ricontatteremo presto per prenderci cura del tuo amico peloso.
           </motion.div>
         )}
       </AnimatePresence>
