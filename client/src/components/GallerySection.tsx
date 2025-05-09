@@ -12,10 +12,10 @@ const GallerySection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">Our Happy Guests</h2>
-          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Gallery</h3>
+          <h2 className="text-sm font-semibold text-[#4A7C59] uppercase tracking-wide">I nostri ospiti felici</h2>
+          <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Galleria</h3>
           <p className="mt-4 text-lg">
-            Take a peek at some of our furry friends enjoying their time at our daycare.
+          Date un'occhiata ad alcuni dei nostri amici pelosi che si divertono nel nostro asilo.
           </p>
         </motion.div>
         

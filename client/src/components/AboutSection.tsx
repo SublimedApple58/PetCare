@@ -55,7 +55,7 @@ const AboutSection = () => {
               </div>
               <p className="text-lg mb-6">
                 Ho 19 anni, da quando sono piccola ho un forte amore per gli animali e sono una studentessa di "tutela e benessere animale".
-                Ho deciso di creare un luogo dove gli animali si possono senire a casa e amati anche se lotani dai loro padroni.
+                Ho deciso di creare un luogo dove gli animali si possono sentire a casa e amati anche se lotani dai loro padroni.
               </p>
               {/* <p className="text-lg mb-6">
                 <span className="font-semibold">Important Note:</span> We are <span className="text-[#4A7C59] font-semibold">NOT</span> an adoption service. 

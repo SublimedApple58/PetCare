@@ -41,8 +41,6 @@ const Footer = () => {
               <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Asilo diurno</a></li>
               <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Pernottamenti</a></li>
               <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Servizio passeggiate</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Addestramento base</a></li>
-              <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Toelettatura</a></li>
               <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Cura per cani anziani</a></li>
             </ul>
           </div>
