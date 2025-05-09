@@ -79,7 +79,8 @@ const AboutSection = () => {
                 ))}
               </div> */}
               <motion.a 
-                href="#contact" 
+                href="https://wa.me/393317335872?text=info%20pet%20terapy" 
+                target="blanket" 
                 className="inline-flex items-center bg-[#4A7C59] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#4A7C59]/80 transition duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

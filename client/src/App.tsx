@@ -9,7 +9,6 @@ import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import GallerySection from "@/components/GallerySection";
-import TestimonialSection from "@/components/TestimonialSection";
 import ContactSection from "@/components/ContactSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -58,8 +57,8 @@ function App() {
           <ServicesSection />
           <FeaturesSection />
           <GallerySection />
-          <TestimonialSection />
-          <ContactSection />
+          {/* <TestimonialSection /> */}
+          {/* <ContactSection /> */}
           <CTASection />
         </main>
         <Footer />

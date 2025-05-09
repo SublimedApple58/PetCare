@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="mb-4 text-white/80">
               Offriamo cure temporanee e amorevoli per il tuo cane in un ambiente familiare.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-white/80 hover:text-[#F3C677] transition-colors">
                 <i className="fab fa-facebook-f"></i>
               </a>
@@ -21,7 +21,7 @@ const Footer = () => {
               <a href="#" className="text-white/80 hover:text-[#F3C677] transition-colors">
                 <i className="fab fa-twitter"></i>
               </a>
-            </div>
+            </div> */}
           </div>
           
           <div>
@@ -32,7 +32,6 @@ const Footer = () => {
               <li><a href="#services" className="text-white/80 hover:text-[#F3C677] transition-colors">Servizi</a></li>
               <li><a href="#gallery" className="text-white/80 hover:text-[#F3C677] transition-colors">Galleria</a></li>
               <li><a href="#testimonials" className="text-white/80 hover:text-[#F3C677] transition-colors">Testimonianze</a></li>
-              <li><a href="#contact" className="text-white/80 hover:text-[#F3C677] transition-colors">Contatti</a></li>
             </ul>
           </div>
           
@@ -53,19 +52,19 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-2"></i>
-                <span>123 Bark Avenue, Dogtown, CA 90210</span>
+                <span>Colledara, Bascinaella, Frazione Villa Piane snc</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone mt-1 mr-2"></i>
-                <span>(555) 123-BARK</span>
+                <span>+39 331 7335872</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-envelope mt-1 mr-2"></i>
-                <span>sirya@dogdaycare.com</span>
+                <span>sirya-felice@outlook.it</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-clock mt-1 mr-2"></i>
-                <span>Lun-Ven: 7:00 - 19:00, Sab: 8:00 - 17:00</span>
+                <span>24/7, 365 giorni l'anno</span>
               </li>
             </ul>
           </div>

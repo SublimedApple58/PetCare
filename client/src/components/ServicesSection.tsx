@@ -73,7 +73,8 @@ const ServicesSection = () => {
         
         <div className="mt-12 text-center">
           <motion.a 
-            href="#contact" 
+            href="https://wa.me/393317335872?text=servizio%20desiderato:%20"
+            target="blanket"
             className="inline-flex items-center bg-[#8B5A2B] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#8B5A2B]/80 transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
