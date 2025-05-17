@@ -59,7 +59,6 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
               <a href="#about" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Chi siamo</a>
               <a href="#services" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Servizi</a>
               <a href="#gallery" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Galleria</a>
-              <a href="#testimonials" className="text-[#333333] px-3 py-2 text-sm font-medium hover:text-[#4A7C59] transition-colors">Testimonianze</a>
               <a 
                 href="#contact" 
                 className="bg-[#4A7C59] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#8B5A2B] transition-colors duration-300"
@@ -109,13 +108,6 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
                 onClick={closeMenu}
               >
                 Galleria
-              </a>
-              <a 
-                href="#testimonials" 
-                className="text-[#333333] block px-3 py-2 text-base font-medium hover:text-[#4A7C59]"
-                onClick={closeMenu}
-              >
-                Testimonianze
               </a>
               <a 
                 href="https://wa.me/393317335872?text=info%20pet%20terapy" 
