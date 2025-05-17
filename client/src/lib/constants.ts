@@ -1,4 +1,8 @@
 import { Service, Feature, Testimonial, GalleryImage } from './types';
+import paesaggio from "../assets/images/paesaggio.jpeg";
+import zampa from "../assets/images/zampa.jpeg";
+import mia from "../assets/images/tartufi_1.jpeg";
+import prato_1 from "../assets/images/prato_1.jpeg";
 
 export const SERVICES: Service[] = [
   {
@@ -157,44 +161,24 @@ export const TESTIMONIALS: Testimonial[] = [
 export const GALLERY_IMAGES: GalleryImage[] = [
   {
     id: '1',
-    src: 'https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+    src: paesaggio,
     alt: 'Happy dog playing in yard'
   },
   {
     id: '2',
-    src: 'https://images.unsplash.com/photo-1546975490-e8b92a360b24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+    src: zampa,
     alt: 'Dogs resting together'
   },
   {
     id: '3',
-    src: 'https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+    src: prato_1,
     alt: 'Dog enjoying playtime'
   },
   {
     id: '4',
-    src: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+    src: mia,
     alt: 'Dog getting treats'
   },
-  {
-    id: '5',
-    src: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    alt: 'Dogs on a walk'
-  },
-  {
-    id: '6',
-    src: 'https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    alt: 'Dog with toys'
-  },
-  {
-    id: '7',
-    src: 'https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    alt: 'Dog getting groomed'
-  },
-  {
-    id: '8',
-    src: 'https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-    alt: 'Senior dog resting'
-  }
 ];
 
 export const SERVICE_OPTIONS = [

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import sirya from "../assets/images/sirya_tesla.jpeg"
 
 const AboutSection = () => {
   const featureVariants = {
@@ -27,7 +28,7 @@ const AboutSection = () => {
             >
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
+                  src={sirya}
                   alt="Sirya with dogs" 
                   className="rounded-xl shadow-xl w-full object-cover h-[500px]"
                 />
