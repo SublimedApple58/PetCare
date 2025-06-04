@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-2"></i>
-                <span>Colledara, Bascinaella, Frazione Villa Piane snc</span>
+                <span>Colledara, Bascianella, Frazione Villa Piane snc</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone mt-1 mr-2"></i>
