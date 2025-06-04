@@ -55,8 +55,8 @@ const AboutSection = () => {
                 <h3 className="mt-2 text-3xl md:text-4xl font-heading font-bold text-[#333333]">Ciao! Mi chiamo Sirya</h3>
               </div>
               <p className="text-lg mb-6">
-                Ho 19 anni, da quando sono piccola ho un forte amore per gli animali e sono una studentessa di "tutela e benessere animale".
-                Ho deciso di creare un luogo dove gli animali si possono sentire a casa e amati anche se lotani dai loro padroni.
+                Ho 19 anni, da quando sono piccola ho un forte amore per gli animali e sono una studentessa nella facoltà "tutela e benessere animale".
+                Ho deciso di creare un luogo dove gli animali si possono sentire a casa e amati anche se lontani dai loro padroni.
               </p>
               {/* <p className="text-lg mb-6">
                 <span className="font-semibold">Important Note:</span> We are <span className="text-[#4A7C59] font-semibold">NOT</span> an adoption service. 
