@@ -28,7 +28,7 @@ const HeroSection = () => {
               I nostri servizi
             </motion.a>
             <motion.a 
-              href="https://wa.me/393317335872?text=info%20pet%20terapy" 
+              href="https://wa.me/393317335872?text=info%20pet%20sitting" 
               target="blanket" 
               className="bg-[#8B5A2B] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#8B5A2B]/80 transition duration-300"
               whileHover={{ scale: 1.05 }}

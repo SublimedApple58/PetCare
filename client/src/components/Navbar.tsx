@@ -110,7 +110,7 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }: NavbarProps) => {
                 Galleria
               </a>
               <a 
-                href="https://wa.me/393317335872?text=info%20pet%20terapy" 
+                href="https://wa.me/393317335872?text=info%20pet%20sitting" 
                 target="blanket"
                 className="bg-[#4A7C59] text-white block px-3 py-2 text-base font-medium rounded-md"
                 onClick={closeMenu}
